@@ -24,6 +24,7 @@ if (COMPARAR O numeroDez e a stringDez) {
 }
 */
 
+//Desafio - reescrever o código imprimindo no console as informações correspondentes as operações e suas condições
 
 let numeroUm = 1
 let stringUm = '1'
@@ -53,7 +54,7 @@ if(numeroTrinta == stringTrinta && numeroTrinta === stringTrinta){
 
 //condicional 3
 if (numeroDez == stringDez && numeroDez !== stringDez){
-    console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')
+  console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')
 } else if (numeroDez != stringDez && numeroDez === stringDez){
   console.log('As variáveis numeroDez e stringDez tem o mesmo valor e mesmo tipo')
 } else {
